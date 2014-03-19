@@ -18,7 +18,8 @@
   "dependencies": {
     "restify": "~2.6.3",
     "redis": "~0.10.1",
-    "time": "~0.10.0"
+    "time": "~0.10.0",
+    "moment-timezone": "0.0.3"
   },
   "devDependencies": {
     "coffee-script": "~1.7.1",
