@@ -28,6 +28,7 @@ DB.prototype = EventEmitter.prototype
 
 DB.prototype.servers = (opts, cb) ->
   now = new time.Date()
+  now.setTimezone 'UTC'
 
   args = [opts.game, now.getTime(), opts.since]
   @client.zrevrangebyscore args, cb
