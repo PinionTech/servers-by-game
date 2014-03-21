@@ -1,10 +1,10 @@
-redis = require 'redis'
+appredis = require 'redis'
 time = require 'time'
 EventEmitter = require('events').EventEmitter
 
 db =
   port: process.env.REDIS_PORT or 6379
-  host: process.env.REDIS_PORT or '127.0.0.1'
+  host: process.env.REDIS_DOMAIN or '127.0.0.1'
 
 if process.env.REDIS_AUTH?
   db.auth = process.env.REDIS_AUTH
