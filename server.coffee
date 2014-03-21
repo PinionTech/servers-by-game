@@ -18,4 +18,4 @@ server.get '/servers', (req, res, next) ->
     res.send servers
     next()
 
-server.listen 3000
+server.listen process.env.PORT or 3000
