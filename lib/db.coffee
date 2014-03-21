@@ -1,4 +1,4 @@
-appredis = require 'redis'
+redis = require 'redis'
 time = require 'time'
 EventEmitter = require('events').EventEmitter
 
