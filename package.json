@@ -19,10 +19,10 @@
     "restify": "~2.6.3",
     "redis": "~0.10.1",
     "time": "~0.10.0",
-    "moment-timezone": "0.0.3"
+    "moment-timezone": "0.0.3",
+    "coffee-script": "~1.7.1"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.1",
     "mocha": "~1.17.1",
     "proxyquire": "~0.5.3"
   }
