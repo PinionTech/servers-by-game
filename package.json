@@ -16,7 +16,7 @@
     "url": "https://github.com/PinionTech/servers-by-game/issues"
   },
   "dependencies": {
-    "restify": "~2.6.3",
+    "restify": "~8.5.1",
     "redis": "~0.10.1",
     "time": "~0.10.0",
     "moment-timezone": "0.0.3",
